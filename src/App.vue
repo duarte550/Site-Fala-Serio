@@ -1,5 +1,5 @@
 <template>
-  <div><navbar></navbar></div>
+  <div class="page"><navbar class="content"></navbar></div>
 </template>
 
 <script>
@@ -14,5 +14,7 @@ export default {
 </script>
 
 <style>
-
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+  
+  
 </style>

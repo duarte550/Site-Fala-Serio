@@ -1,6 +1,11 @@
 <template>
-  <div class="retangulo">
-
+  <div class="container">
+      <img src="../assets/logo.png" alt="logo" style="height:20vh">
+      <a href="" class="texto-navbar" style="color:#9fcf67">Home</a>
+      <a href="" class="texto-navbar">Quem somos?</a>
+      <a href="" class="texto-navbar">Para Saber Mais</a>
+      <a href="" class="texto-navbar">Fale conosco</a>
+      <button>Contribua!</button>
   </div>
 </template>
 
@@ -14,8 +19,46 @@ export default {
 </script>
 
 <style>
-    .retangulo{
-        width: 500px;
-        background-color: green;
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        max-width: 1200px;
+        height: 20vh;
+        background-color: #f5f5dc;
+        font-family: 'Noto Sans', sans-serif;
+
+    }
+    .texto-navbar{
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+        transition: text-decoration;
+        transition-delay: 0.5s;
+        
+
+    }
+    .texto-navbar:hover{
+        text-decoration: underline;
+        opacity: 80%;
+    }
+    button{
+        background-color:#9fcf67;
+        font-family: 'Noto Sans', sans-serif;
+        color: white;
+        height: 6vh;
+        font-size: 1.2em;
+        border-radius: 15px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        box-shadow: none;
+        transition: box-shadow 0.5s;
+
+    }
+    button:hover{
+        box-shadow: 5px 8px 8px #888888;
+        opacity: 80%;
     }
 </style>
