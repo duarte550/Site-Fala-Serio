@@ -25,9 +25,9 @@ export default {
         justify-content: space-evenly;
         align-items: center;
         max-width: 1200px;
-        height: 20vh;
+        height: 15vh;
         background-color: #f5f5dc;
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Noto Sans', sans-serif, bold;
 
     }
     .texto-navbar{
