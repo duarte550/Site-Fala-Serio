@@ -1,6 +1,6 @@
 <template>
     <div class="container-carousel">
-        <Carousel autoplay=True perPage=1>
+        <Carousel autoplay=True perPage=1 paginationPadding=5 paginationActiveColor='#3884c5'>
             <Slide><img src="../assets/FotosParaRolamento/DSC_0370.jpg" alt="" class="slide-photo"></Slide>
             <Slide><img src="../assets/FotosParaRolamento/DSC_0356.jpg" alt="" class="slide-photo"></Slide>
             <Slide><img src="../assets/FotosParaRolamento/DSC01676.jpg" alt="" class="slide-photo"></Slide>

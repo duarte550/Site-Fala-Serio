@@ -26,5 +26,8 @@ export default {
     font-family: klavikaBold;
     src: url("./assets/klavikaBold.otf");
   }
-  
+  .VueCarousel-pagination{
+    position:relative;
+    top:-50px;
+  }
 </style>
