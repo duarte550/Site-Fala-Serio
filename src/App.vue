@@ -5,6 +5,7 @@
     <impacto></impacto>
     <institucional></institucional>
     <saber-mais></saber-mais>
+    <rede-social></rede-social>
     <footer-component></footer-component>
 
 
@@ -18,6 +19,7 @@ import institucional from './components/institucional.vue';
 import impacto from './components/impacto.vue';
 import saberMais from './components/sabermais.vue';
 import footerComponent from './components/footer.vue';
+import redeSocial from './components/redesocial.vue';
 
 export default {
   name: 'App',
@@ -28,6 +30,7 @@ export default {
     impacto,
     footerComponent,
     saberMais,
+    redeSocial,
   }
 }
 </script>
