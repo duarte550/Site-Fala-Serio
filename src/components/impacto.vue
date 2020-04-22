@@ -2,9 +2,9 @@
   <div class="container-impacto">
       <h1>IMPACTO DO FALA SÉRIO</h1>
       <div class="flex-impacto">
-          <div class="coluna-impacto"><img src="../assets/book.png" alt="" class="img-impacto"><p class="numero-impacto">1563</p><p class="texto-impacto">alunos impactados</p></div>
-          <div class="coluna-impacto"><img src="../assets/school.png" alt="" class="img-impacto"><p class="numero-impacto">15</p><p class="texto-impacto">escolas visitadas</p></div>
-          <div class="coluna-impacto"><img src="../assets/clock.png" alt="" class="img-impacto"><p class="numero-impacto">6</p><p class="texto-impacto">anos de projeto</p></div>
+          <div class="coluna-impacto"><img src="../assets/book_branco.png" alt="" class="img-impacto"><p class="numero-impacto">1563</p><p class="texto-impacto">alunos impactados</p></div>
+          <div class="coluna-impacto"><img src="../assets/school_branca.png" alt="" class="img-impacto"><p class="numero-impacto">15</p><p class="texto-impacto">escolas visitadas</p></div>
+          <div class="coluna-impacto"><img src="../assets/clock_branco.png" alt="" class="img-impacto"><p class="numero-impacto">6</p><p class="texto-impacto">anos de projeto</p></div>
       </div>
   </div>
 </template>

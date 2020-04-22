@@ -4,6 +4,7 @@
     <destaques></destaques>
     <impacto></impacto>
     <institucional></institucional>
+    <saber-mais></saber-mais>
     <footer-component></footer-component>
 
 
@@ -15,6 +16,7 @@ import navbar from './components/navbar.vue';
 import destaques from './components/destaques.vue';
 import institucional from './components/institucional.vue';
 import impacto from './components/impacto.vue';
+import saberMais from './components/sabermais.vue';
 import footerComponent from './components/footer.vue';
 
 export default {
@@ -24,7 +26,8 @@ export default {
     destaques,
     institucional,
     impacto,
-    footerComponent
+    footerComponent,
+    saberMais,
   }
 }
 </script>

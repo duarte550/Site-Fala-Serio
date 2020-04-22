@@ -1,6 +1,6 @@
 <template>
   <div class="container-footer">
-      <img src="../assets/logo.png" alt="" style="height:100%">
+      <img src="../assets/logo_branco.png" alt="" style="height:100%">
       <div class="texto-footer">
             <p>Iniciativa Fala Sério © 2020</p>
             <p>Não sendo para fins comerciais ou políticos, todo o conteúdo deste portal pode ser compartilhado
