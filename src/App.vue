@@ -2,6 +2,7 @@
   <div class="page">
     <navbar class="content"></navbar>
     <destaques></destaques>
+    <impacto></impacto>
     <institucional></institucional>
 
 
@@ -12,6 +13,7 @@
 import navbar from './components/navbar.vue';
 import destaques from './components/destaques.vue';
 import institucional from './components/institucional.vue';
+import impacto from './components/impacto.vue';
 
 export default {
   name: 'App',
@@ -19,6 +21,7 @@ export default {
     navbar,
     destaques,
     institucional,
+    impacto,
   }
 }
 </script>
