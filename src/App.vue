@@ -9,7 +9,6 @@
 </template>
 
 <script>
-
 import navbar from './components/navbar.vue';
 import destaques from './components/destaques.vue';
 import institucional from './components/institucional.vue';
