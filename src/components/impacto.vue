@@ -1,6 +1,6 @@
 <template>
   <div class="container-impacto">
-      <h1>IMPACTO DO FALA SÉRIO</h1>
+      <h1 class="titulo-impacto">IMPACTO DO FALA SÉRIO</h1>
       <div class="flex-impacto">
           <div class="coluna-impacto"><img src="../assets/book_branco.png" alt="" class="img-impacto"><p class="numero-impacto">1563</p><p class="texto-impacto">alunos impactados</p></div>
           <div class="coluna-impacto"><img src="../assets/school_branca.png" alt="" class="img-impacto"><p class="numero-impacto">15</p><p class="texto-impacto">escolas visitadas</p></div>
@@ -19,6 +19,11 @@ export default {
 </script>
 
 <style>
+    .titulo-impacto{
+        color:white;
+        padding-bottom: 20px;
+        
+    }
     .container-impacto{
         height:50vh;
         background-color: #9fcf67;
