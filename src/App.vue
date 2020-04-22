@@ -2,7 +2,7 @@
   <div class="page">
     <navbar class="content"></navbar>
     <destaques></destaques>
-    <video-institucional></video-institucional>
+    <institucional></institucional>
 
 
   </div>
@@ -12,13 +12,14 @@
 
 import navbar from './components/navbar.vue';
 import destaques from './components/destaques.vue';
-import faixa2 from './components/faixa2.vue';
+import institucional from './components/institucional.vue';
 
 export default {
   name: 'App',
   components: {
     navbar,
     destaques,
+    institucional,
   }
 }
 </script>

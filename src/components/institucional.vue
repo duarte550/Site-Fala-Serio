@@ -1,13 +1,15 @@
 <template>
-    <div class="container-video">
-
-    </div>
-    
+  <div class="container-video">
+      
+  </div>
 </template>
 
 <script>
+
+
 export default {
-    name: faixa2,
+  name: 'institucional',
+  
 }
 </script>
 
@@ -17,5 +19,4 @@ export default {
         max-width: 1200px;
         background-color: #f5f5dc;
     }
-
 </style>
