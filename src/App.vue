@@ -4,6 +4,7 @@
     <destaques></destaques>
     <impacto></impacto>
     <institucional></institucional>
+    <footer-component></footer-component>
 
 
   </div>
@@ -14,6 +15,7 @@ import navbar from './components/navbar.vue';
 import destaques from './components/destaques.vue';
 import institucional from './components/institucional.vue';
 import impacto from './components/impacto.vue';
+import footerComponent from './components/footer.vue';
 
 export default {
   name: 'App',
@@ -22,6 +24,7 @@ export default {
     destaques,
     institucional,
     impacto,
+    footerComponent
   }
 }
 </script>

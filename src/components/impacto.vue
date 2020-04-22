@@ -20,7 +20,7 @@ export default {
 
 <style>
     .container-impacto{
-        height:45vh;
+        height:50vh;
         background-color: #9fcf67;
         max-width: 1200px;
         padding-top: 0.5%;
