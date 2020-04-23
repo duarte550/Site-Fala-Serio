@@ -6,7 +6,7 @@
                 <iframe class="video-institucional" width="560" height="315" src="https://www.youtube.com/embed/Q0TAsJUlvfA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <div class="container-texto-video">
                     <div class="texto-video">
-                        <p class="texto-institucional">Atuamos para <span class="texto-verde">motivar</span>,<span class="texto-verde"> inspirar </span>, 
+                        <p class="texto-institucional">Atuamos para <span class="texto-verde">motivar</span>,<span class="texto-verde"> inspirar</span>, 
                             promover <span class="texto-verde"> autoconhecimento </span> 
                             e mostrar o papel da <span class="texto-verde"> educação 
                             </span>na construção dos sonhos
@@ -49,11 +49,15 @@ export default {
         flex-direction: row;
         /*justify-content: space-between;*/
         align-items: center;
+        position: absolute;
+
     }
     .texto-video{
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        font-size:1.4em;
+        
         
     }
     .ler-mais{
@@ -79,16 +83,21 @@ export default {
         height: 60vh;
         max-width: 1200px;
         background-color: #f5f5dc;
+        position: relative;
+        
     }
     .texto-institucional{
-        text-align: right;
+        text-align: center;
         width: 40%;
         height: 60%;
         font-size: 1.5em;
         color: #3884c5;
     }
     .video-institucional{
-        width: 100%;
+        width: 40%;
+        position: absolute;
+        margin-top: 2%;
+        
         
     }
 
@@ -99,6 +108,7 @@ export default {
     }
     .container-texto-video{
         margin-right: 10%;
+        
     }
     .texto-verde{
         color: #9fcf67;

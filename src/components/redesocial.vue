@@ -2,10 +2,10 @@
   <div class="container-redesocial">
       <div class="texto-rede-social">
         <h1>QUALQUER COISA... FALE COM A GENTE!</h1>
-        <div class="linha-rede-social"><img src="../assets/Facebook.png" alt="" class="img-rede-social"><p>/iniciativafalaserio</p></div>
-        <div class="linha-rede-social"><img src="../assets/Instagram.png" alt="" class="img-rede-social"><p>@iniciativafalaserio</p></div>
-        <div class="linha-rede-social"><img src="../assets/whatsapp.png" alt="" class="img-rede-social"><p>(11)9 8859-6980</p></div>
-        <div class="linha-rede-social"><img src="../assets/e-mail-envelope.png" alt="" class="img-rede-social"><p>iniciativafalaserio@gmail.com</p></div>
+        <div class="linha-rede-social"><img src="../assets/Facebook_azul.png" alt="" class="img-rede-social"><p>/iniciativafalaserio</p></div>
+        <div class="linha-rede-social"><img src="../assets/Instagram_azul.png" alt="" class="img-rede-social"><p>@iniciativafalaserio</p></div>
+        <div class="linha-rede-social"><img src="../assets/whatsapp_azul.png" alt="" class="img-rede-social"><p>(11)9 8859-6980</p></div>
+        <div class="linha-rede-social"><img src="../assets/e-mail-envelope_azul.png" alt="" class="img-rede-social"><p>iniciativafalaserio@gmail.com</p></div>
       </div>
   </div>
 </template>
